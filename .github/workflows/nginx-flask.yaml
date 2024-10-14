@@ -20,7 +20,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy: # syntax
       matrix: # syntax
-        task: ['nginx', 'flask']
+        task: ['server', 'flask']
 
     steps:
       # Step 1: Checkout/download the repository code
